@@ -1,1 +1,180 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=dvice-width">
+    <title>Freelancer - Star Bootstrap Theme</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,700,900" rel="stylesheet">  
+    <!--Icones-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="titleHeader"><a href="#top">START BOOTSTRAP</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main id="main">
+        <section class="introduction">
+            <div class="mainPicture">
+                <img src="assets/images/profile.png" alt="Profile Photo">
+            </div>
+            <h1 class="titleMain">START BOOTSTRAP</h1>
+            <i class="fas fa-star fa-2x"></i>
+            <p>Web Developer - Graphic Artist - User Experience Designer<p>
+        </section>
+
+        <section id="portfolio">
+            <h1 class="titlePortfolio">PORTFOLIO</h1>
+            <i class="fas fa-star fa-2x"></i>
+            <div class="portfolioFirstRow">
+            	<img src="assets/images/portfolio/cabin.png" alt="Cabin Photo">
+            	<img src="assets/images/portfolio/cake.png" alt="Cake Photo">
+            	<img src="assets/images/portfolio/circus.png" alt="Circus Photo">
+            </div>
+            <div class="portfolioSecondRow">
+            	<img src="assets/images/portfolio/game.png" alt="Game Photo">
+            	<img src="assets/images/portfolio/safe.png" alt="Safe Photo">
+            	<img src="assets/images/portfolio/submarine.png" alt="Submarine Photo">
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="titleAbout">ABOUT</h1>
+            <i class="fas fa-star fa-2x"></i>
+            <div class="about-container">
+            	<div>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+            	<div>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+            </div>
+            <a href="#"><button class="buttonDownloadTheme">
+            <i class="fas fa-download"></i> Download Theme</button></a>
+        </section>
+
+        <section id="contact">
+            <h1 class="titleContact">CONTACT ME</h1>
+            <i class="fas fa-star fa-2x"></i>
+            <form id="form">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="number" placeholder="Phone Number">
+                    </div>
+                    <div class="col">
+                        <textarea type="text" id="message" placeholder="Message" style="height:100px"></textarea>
+                    </div>
+                    <div class="col">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div>
+		        <h2>LOCATION</h2>
+                <p>
+                    3481 Melrose Place
+        			<br>
+        			Beverly Hills, CA 90210
+        		</p>
+            </div>
+
+            <div>
+        		<h2>AROUND THE WEB</h2>
+        		<p>
+                    <a href="#" class="socialMediaLinks" title="Facebook">
+                        <div class="socialMediaIcons">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="socialMediaLinks" title="Google Plus">
+                        <div class="socialMediaIcons">
+                            <i class="fab fa-google-plus-g fa-lg"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="socialMediaLinks" title="Twitter">
+                        <div class="socialMediaIcons">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="socialMediaLinks" title="Linkedin">
+                        <div class="socialMediaIcons">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="socialMediaLinks" title="Dribble">
+                        <div class="socialMediaIcons">
+                            <i class="fab fa-dribbble fa-lg"></i>
+                        </div>
+                    </a>
+                </p>
+            </div>
+
+            <div>
+                <h2>ABOUT FREELANCER</h2>
+        		<p>
+                    Freelance is a free to use, open source Bootstrap theme created by 
+                    <a href="https://startbootstrap.com/" target="_blank" class="footerLink" title="Start Bootstrap">
+                        Start Bootstrap</a>.
+                </p>
+        	</div>
+        </div>
+
+        <small id="small">
+            Copyright © Your Website 2017
+        </small>
+    </footer>   
+</body>
+</html>
+
+
+
+
+
+
+
+<!--
+            <form id="form">
+                <div class="row">
+                    <p><input type="text" id="name" placeholder="Name">
+                        <hr>
+                    </p>
+        
+                    <p><input type="text" id="email" placeholder="Email Address">
+                        <hr>
+                    </p>
+
+                    <p><input type="text" id="number" placeholder="Phone Number">
+                        <hr>
+                    </p>
+
+                    <p><input type="text" id="message" placeholder="Message">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <hr>
+                    </p>
+
+                    <p><input type="submit" value="Send">
+                    </p>
+                </div>
+            </form>
